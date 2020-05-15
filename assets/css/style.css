@@ -1,0 +1,890 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* Basic Setup */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 10px--->(10/16)*100=62.5% */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    font-size: 1.6rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* Heading */
+/* 42/10=4.2rem */
+h1 {
+    font-size: 4.2rem;
+    color: #fff;
+}
+
+/* Reusable Components */
+hr {
+    color: 1px solid black;
+    opacity: .1;
+}
+
+p {
+    color: #6a6b6f;
+}
+
+.boxShadow {
+    -webkit-box-shadow: 3px 3px 10px #dcdada;
+    box-shadow: 3px 3px 10px #dcdada;
+}
+
+.row {
+    max-width: 132rem;
+    margin: 0 auto;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/* Home Page Section Start*/
+.flexContainerHomepage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f9fafc;
+}
+
+.homePageFirstLeftPart {
+    width: 75%;
+    margin: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.homePageFirstRightPart {
+    margin-top: 2rem;
+    width: 25%;
+    margin-right: 1.5rem;
+}
+
+.homePageSecondPart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.homePageSecondLeftPart {
+    width: 33%;
+}
+
+.homePageSecondRightPart {
+    width: 66%;
+    margin: 2rem;
+}
+
+.homePageThirdPart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.homePageThirdLeftPart {
+    margin-top: 2rem;
+    width: 50%;
+    margin-right: 1.5rem;
+}
+
+.homePageThirdRightPart {
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.homePageFirstLeftImageSection {
+    position: relative;
+}
+
+.homePageFirstLeftImageBody {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+/* First Row First */
+.homePageFirstLeftImageBody h5 {
+    font-size: 1.5rem;
+    color: white;
+    height: 3.5rem;
+    width: 14rem;
+    background-color: #ff565d;
+    margin-left: 45%;
+    margin-top: 10%;
+    margin-bottom: 3rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 0.8rem;
+}
+
+.homePageFirstLeftImageBody h2 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.homePageFirstLeftImageBody {
+    font-size: 2rem;
+    color: white;
+}
+
+.homePageFirstLeftImageBodyFirstParagraph {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+
+.homePageFirstLeftImageFooter p {
+    margin-right: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    margin-left: 1rem;
+}
+
+.homePageFirstLeftImageFooter .mar {
+    margin-right: 1rem;
+}
+
+.homePageFirstLeftImageFooter {
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+/* First Row Second Image */
+.firstRowSecondImage h2 {
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.firstRowSecondImageFooter {
+    margin-left: 2%;
+}
+
+.firstRowSecondImage h5 {
+    margin-left: 0%;
+}
+
+/* First Row Second Image */
+.thirdRowThirdImage {
+    margin-left: 2%;
+}
+
+/* Second Row First Image */
+.secondRowThirdImage h2 {
+    text-align: left;
+    font-size: 2.2rem;
+}
+
+.secondRowThirdImage h5 {
+    margin-left: 0%;
+    margin-top: 2.5rem;
+}
+
+/* Second Row First Section */
+.weeklyStories p {
+    font-size: 2rem;
+    color: black;
+}
+
+.stories hr {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.homePageSecondLeftPart h5 {
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.homePageSecondRightMost {
+    background-color: #ff565d;
+    padding: 2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 2.3rem;
+}
+
+.homePageSecondRightMost h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1.8rem;
+    margin-top: 1rem;
+}
+
+.homePageSecondRightMost p {
+    color: white;
+    font-size: 2rem;
+}
+
+.homePageButton {
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+    width: 19rem;
+    height: 6rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid white;
+    border-bottom: 0.3rem solid white;
+}
+
+/* Home Page Section Start*/
+
+/* Home Page B */
+/* First Row */
+
+.homePageB {
+    background-color: #f9fafc;
+}
+
+.homePageB .card1 {
+    background-color: white;
+    -webkit-box-shadow: 1rem solid black;
+    box-shadow: 1rem solid black;
+}
+
+.homePageB .card1 h3 {
+    font-size: 2rem;
+}
+
+.homePageB hr {
+    border: 0.019rem solid black;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cardFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.cardBody p {
+    margin: 1rem 0;
+}
+
+.cardBody {
+    padding-left: 2rem;
+}
+
+.cardBody .role {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.cardFooter p {
+    margin-right: 2rem;
+}
+
+/* Home Page B Third Row */
+
+.homePageB .users img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -3rem 0 2rem 40%;
+}
+
+/* Home Page B Second Row */
+
+.author .jackson {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
+
+.author img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.author p {
+    margin: 0 0;
+    margin-top: 3rem;
+    color: grey;
+    padding-right: 57rem;
+}
+
+.author h3 {
+    margin: 0 0;
+    color: black;
+    font-size: 1.7rem;
+    padding-right: 50rem;
+}
+
+/* Categories */
+
+/*Categories*/
+
+.weeklyStories {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 6rem;
+}
+
+.counting {
+    font-size: 2rem;
+    color: #dadada;
+}
+
+.featuredStories .weeklyStories .stories {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.featuredStories .weeklyStories hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.featuredStories .categoryTitle {
+    font-size: 5rem;
+    color: black;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-align: left;
+    margin-left: 6rem;
+}
+
+/* Category Page B Section*/
+.categoryPageB {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.categoryPageBody {
+    position: absolute;
+    background-color: white;
+    margin-top: 22rem;
+    margin-right: 2rem;
+}
+
+.categoryPageBody p:last-child {
+    font-size: 2.5rem;
+}
+
+.categoryPageBody .categoryPageBodyPart {
+    margin-left: 3rem;
+}
+
+.categoryPageBodyPartFirstParentItem h1 {
+    font-size: 7rem;
+    color: black;
+    opacity: 0.1;
+    position: relative;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.categoryPageBodyPartFirstItem h3 {
+    position: absolute;
+    font-size: 3rem;
+    top: 0;
+    bottom: 0;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.categoryPageTitle .categoryTitle {
+    font-size: 5rem;
+    color: black;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+/*Article*/
+.articleAHeading h3 {
+    color: black;
+    font-size: 1.8rem;
+    padding-left: 3rem;
+}
+
+.articleAHeading p {
+    color: #ff565d;
+    margin-right: 1.5rem;
+}
+
+.articleAHeading span {
+    color: #ed4a4a;
+    padding-right: 1.5rem;
+    font-size: 3.5rem;
+}
+
+.articleADescription p {
+    margin-left: 8.5rem;
+    margin-bottom: 3rem;
+}
+
+.articleADescription hr {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.articlePageBFifthPart {
+    margin-left: 18%;
+    margin-right: 23%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.articleARight h3 {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.articleARight img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+}
+
+.articleARight {
+    margin-left: 6rem;
+}
+
+.articleARightAuthor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.articleARightAuthor h4 {
+    margin-top: 5rem;
+}
+
+/* Article Page B */
+.articleARightAuthor h4 {
+    margin-top: 5rem;
+}
+
+.articlePageBFifthPartItem {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 6rem;
+}
+
+.veronica {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.veronica img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1.5rem;
+}
+
+.veronica h3 {
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.articlePageBUserComments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.articlePageBUserDescription {
+    margin-left: 7rem;
+    margin-bottom: 4rem;
+}
+
+.articlePageBUserCommentsSection hr {
+    margin-bottom: 1rem;
+}
+
+/* Message Section */
+.articlePageBMessageSection {
+    padding: 2rem;
+    background-color: white;
+}
+
+.articlePageBMessageSection #text {
+    padding: 3rem;
+    width: 55rem;
+}
+
+.articlePageBMessageSection h4 {
+    color: black;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.articlePageBMessage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.articlePageBButton {
+    border: none;
+    color: Red;
+    text-align: end;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 92%;
+    margin-top: 1rem;
+}
+
+.articlePageBUserComments .date {
+    margin-top: 1.5rem;
+}
+
+.date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.date p {
+    margin-left: 0.5rem;
+}
+
+.date .da {
+    margin-left: 2rem;
+}
+
+.articlePageBFourthPartRightPart p {
+    margin-left: 20%;
+}
+
+.articlePageBUserCommentsSection {
+    padding: 2.5rem;
+}
+
+.articlePageBUserCommentsSection p:first-child {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.articlePageBUserDescription .reply {
+    margin-right: 0.5rem;
+}
+
+.articlePageBInsideReplySection {
+    margin-left: 10%;
+}
+
+#articlePageBFithPart {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5rem;
+}
+
+#articlePageBFithPart h1 {
+    text-align: center;
+    color: black;
+}
+
+/* Article Page B  */
+
+.articlePageBFirstPart {
+    position: relative;
+    background-color: white;
+}
+
+.articlePageBRightParagraph p:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.articlePageBFirstImage img {
+    width: 100%;
+    height: 50rem;
+}
+
+.articlePageBFirstPartHeading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 8%;
+}
+
+.articlePageBFirstPartHeading p:first-child {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.articlePageBFirstPartHeading h4 {
+    color: white;
+    font-size: 5.5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.articleBAuthor {
+    margin-left: 45%;
+    color: white;
+}
+
+.articleBAuthor h3 {
+    color: white;
+}
+
+.articlePageBSecondPartItem {
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.articlePageCRightParagraph p:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.articlePageBLeftSocialLink {
+    color: gainsboro;
+    margin-right: 18%;
+}
+
+.articlePageBLeftSocialLink p {
+    color: #b6b8c2;
+}
+
+.articlePageBSecondPartItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.articlePageBSecondPartItem p {
+    margin-bottom: 1rem;
+}
+
+.articlePageBThirdPart {
+    margin-left: 25%;
+    margin-right: 30%;
+}
+
+.articlePageBFourthPart {
+    margin-left: 25%;
+    margin-right: 30%;
+}
+
+.articlePageBFourthPart h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.articlePageBFifthImage img {
+    width: 100%;
+    height: 40rem;
+    opacity: 0.6;
+    background-color: black;
+}
+
+.articlePageBFifthPart {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.articlePageBFifthPart {
+    position: relative;
+}
+
+.articlePageBFifthPartHeading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 8%;
+}
+
+.articlePageBFifthPartHeading p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.articlePageBFifthPartHeading h4 {
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.articlePageBButtonContact {
+    background-color: #ed4a4a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 32rem;
+    height: 5rem;
+}
+
+.articlePageBFormSection {
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+}
+
+.articlePageBFormSection #email{
+    width: 32rem;
+    height: 5rem;
+    background: transparent;
+    padding-left: 3rem;
+    border: 1px solid white;
+}
+
+.articleBCategoryPageTitle h2{
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/*For placeholder white color*/
+::-webkit-input-placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+}
+::-moz-placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+}
+:-ms-input-placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+}
+::-ms-input-placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-weight: bold;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    font-weight: bold;
+}
+/*For placeholder white color end*/
+
+.articlePageBFifthPartHeading {
+    margin-left: 35%;
+}
+
+.services-section {
+    text-align: center;
+    background: -o-linear-gradient(rgba(2, 14, 11, 0.5), rgba(9, 10, 10, 0.5)) no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 14, 11, 0.5)), to(rgba(9, 10, 10, 0.5))) no-repeat;
+    background: linear-gradient(rgba(2, 14, 11, 0.5), rgba(9, 10, 10, 0.5)) no-repeat;
+    background-size: cover;
+}
+
+.articlePageBRecommended {
+    margin-bottom: 10rem;
+}

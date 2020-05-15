@@ -1,0 +1,264 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*Fonts properties*/
+@font-face {
+    font-family: "lato-Medium";
+    src: url('../fonts/Lato/Lato-Medium.ttf');
+}
+
+@font-face {
+    font-family: "oswald-Regular";
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: "icomoon";
+    src: url('../fonts/Icomoon/icomoon.ttf') ;
+}
+/*End of fonts properties*/
+
+[class^="icon-"], [class*="icon-"] {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header h1{
+    font-family: "lato-Medium";
+    font-size: 25px;
+    line-height: 2;
+    color: #000000;
+    margin: 0px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+h1 strong{
+    color: #FF0000;
+    padding-left: 10px;
+    font-family: "lato-Medium";
+}
+
+ol{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+li{
+    padding: 0px 10px 0px;
+}
+
+header{
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.container{
+    max-width: 1440px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 450px);
+    gap: 5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-auto-flow: dense;
+    background-color: #F9FAFC;
+    margin: 0px auto;
+    padding: 20px 40px;
+}
+
+.header .container{
+    background-color: transparent;
+    -ms-grid-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.menu{
+    font-family: "oswald-Regular";
+    font-size: 15px;
+    line-height: .5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    font-weight: 500;
+}
+
+.menu a{
+    color: #D3D3D3;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+.icon-menu:before {
+    content: "\e9e0";
+}
+
+.burger-button{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 50px;
+    -webkit-transform: scaleX(1.4);
+    -ms-transform: scaleX(1.4);
+    transform: scaleX(1.4);
+}
+/*End of header*/
+
+/*Content*/
+.content{
+    background-color: #d8ecf3;
+}
+
+/*End of content*/
+
+/*Footer*/
+footer{
+    background-color: #15161a;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+footer .container{
+    color: white;
+    background-color: transparent;
+    -ms-grid-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
+    padding: 0px;
+}
+
+.footer-logo{
+    padding: 0px 40px;
+}
+
+.footer-logo h1{
+    color: #46464a;
+    padding-bottom: 40px;
+    padding-left: 7px;
+}
+
+.footer-info{
+    display: inherit;
+    -ms-grid-columns: 1fr 5px 1fr 5px 1fr 5px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding-right: 80px;
+}
+
+.footer-info a{
+    font-family: "oswald-Regular";
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.footer-contact{
+    -ms-grid-column-align: center;
+    justify-self: center;
+    padding-right: 50px;
+}
+
+.social-link{
+    font-family: "lato-Regular";
+    color: #6e6f73;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.social-link i{
+    padding: 0px 10px;
+}
+
+.social-link .instagram:before{
+    content: "\ea6f";
+    color: white;
+}
+.social-link .pinterest:before {
+    content: "\ea75";
+    color: white;
+}
+
+.social-link .twitter:before {
+    content: "\ea7c";
+    color: white;
+}
+
+.social-link .facebook:before {
+    content: "\ea67";
+    color: white;
+}
+
+form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.input{
+    height: 35px;
+    border: 0px;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.subscription_btn{
+    font-family: "oswald-Regular";
+    background: #fa575c;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: .5px;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 35px;
+    width: 140px;
+}
+/*End of Footer*/

@@ -1,0 +1,485 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    .articlePageBFirstPartHeading h4 {
+        font-size: 4.5rem;
+    }
+
+    .author p {
+        padding-right: 50rem;
+    }
+
+
+}
+
+/*Small tablet to big tablet: from 767px to 1023px*/
+@media only screen and (max-width: 1023px) {
+    .articlePageBFirstPartHeading h4 {
+        font-size: 3rem;
+    }
+
+    .articlePageBFirstPartHeading p:first-child {
+        font-size: 1.5rem;
+    }
+
+    .author p {
+        padding-right: 44rem;
+    }
+
+    .author h3 {
+        padding-right: 42rem;
+    }
+
+    .cardBody .role {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .cardBody p {
+        font-size: 1.5rem;
+    }
+
+    .categoryPageBody p:last-child {
+        font-size: 2rem;
+    }
+
+    .articleBCategoryPageTitle h2 {
+        font-size: 3.5rem;
+    }
+
+    .footer-logo h1 {
+        font-size: 3rem;
+        padding-bottom: 10px;
+        padding-left: 25px;
+    }
+
+    .footer-info a {
+        padding: 10px 11px;
+    }
+
+    .firstRowSecondImage h2 {
+        font-size: 2rem;
+    }
+
+    .homePageSecondRightMost p {
+        font-size: 1.87rem;
+    }
+
+    .cardFooter {
+        font-size: 1.5rem;
+    }
+}
+
+/*Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+    li {
+        padding: 0;
+    }
+
+    .author h3 {
+        padding-right: 28rem;
+    }
+
+    .articlePageBFifthPartHeading h4 {
+        font-size: 2.3rem;
+        margin-right: 19rem;
+    }
+
+    .articlePageBFifthPartHeading p {
+        font-size: 1.4rem;
+        margin-left: -20rem;
+        padding-top: 1rem;
+    }
+
+    .articlePageBFormSection #email {
+        width: 20.5rem;
+        height: 4rem;
+        padding-left: 2rem;
+        font-size: 1.3rem;
+    }
+
+    form {
+        margin-right: 13rem;
+    }
+
+    .articlePageBButtonContact {
+        font-size: 14px;
+        display: inline;
+        margin-right: 19rem;
+        padding: 9px 86px;
+    }
+
+    .articlePageBSecondPartItem {
+        margin-right: 9%;
+        margin-left: -1%;
+    }
+
+    .articlePageBRightParagraph p:first-child {
+        font-size: 1.8rem;
+    }
+
+    .articlePageBLeftSocialLink {
+        margin-right: 10%;
+        padding-left: 9%;
+    }
+
+    .articlePageBThirdPart {
+        margin-left: 14%;
+        margin-right: 10%;
+    }
+
+    .articlePageBFourthPart {
+        margin-left: 14%;
+        margin-right: 9%;
+    }
+
+    .articlePageBFifthPartItem {
+        margin: 0;
+    }
+
+    .articlePageBUserDescription {
+        margin-right: 8rem;
+    }
+
+    .articlePageBUserCommentsSection {
+        padding: 0;
+    }
+
+    .articlePageBMessageSection #text {
+        padding: 0;
+        width: 40rem;
+    }
+
+    .articlePageBButton {
+        font-size: 20px;
+        margin-left: 83%;
+        margin-top: 1rem;
+    }
+
+    .articleBCategoryPageTitle h2 {
+        margin: 0;
+        font-size: 2.8rem;
+    }
+
+    .cardBody .role {
+        font-size: 1.9rem;
+    }
+
+    .categoryPageBody p:last-child {
+        font-size: 1.9rem;
+    }
+
+    .footer-info {
+        display: block;
+    }
+
+    .footer-logo h1 {
+        font-size: 2.6rem;
+        padding-left: 0;
+        margin-top: -5rem;
+    }
+
+    h1 strong {
+        display: none;
+    }
+
+    .articlePageBFirstPartHeading h4 {
+        font-size: 2.4rem;
+    }
+
+    .homePageFirstLeftImageBody h2 {
+        font-size: 2.5rem;
+    }
+
+    .cardFooter {
+        display: none;
+    }
+
+    .homePageFirstLeftImageBody h2 {
+        font-size: 2rem;
+    }
+
+    .homePageSecondRightMost{
+        padding: 0;
+    }
+
+    .homePageSecondRightMost p {
+        font-size: 1.7rem;
+        margin-bottom: 5.8rem;
+    }
+
+    .homePageSecondLeftPart h5 {
+        font-size: 2.2rem;
+    }
+
+    .weeklyStories {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        margin:0;
+    }
+
+    .homePageFirstLeftImageBody h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/*Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    nav.menu {
+        display: none;
+    }
+
+    .burger-button {
+        padding-left: 27rem;
+    }
+
+    header h1 {
+        padding-left: 2rem;
+    }
+
+    .author h3 {
+        padding-right: 9rem;
+        font-size: 1.4rem;
+    }
+
+    .author p {
+        margin-top: 0;
+    }
+
+    .articlePageBFirstPartHeading p:first-child {
+        padding-right: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3.5rem;
+        font-size: 2rem;
+    }
+
+    .articlePageBFirstPartHeading h4 {
+        font-size: 5rem;
+        width: 90%;
+        margin: 0;
+        margin-left: 2rem;
+    }
+
+    .articleBAuthor {
+        margin-left: 30%;
+        margin-right: 25%;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    .articlePageBThirdPart {
+        margin: 0;
+    }
+
+    .articlePageBLeftSocialLink {
+        display: none;
+    }
+
+    .articlePageBSecondPartItem {
+        margin-right: 2%;
+        margin-left: 7%;
+    }
+
+    .articlePageBThirdPart {
+        display: none;
+    }
+
+    .articlePageBFourthPart {
+        margin-right: 2%;
+        margin-left: 7%;
+        padding-bottom: 3rem;
+    }
+
+    .articlePageBFifthPart {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .articlePageBFifthImage img {
+        height: 44rem;
+        opacity: 0.4;
+    }
+
+    .articlePageBFifthPartHeading h4 {
+        font-size: 3.3rem;
+    }
+
+    .articlePageBFifthPartHeading {
+        margin-left: 30%;
+        margin-top: 15%;
+    }
+
+    .articlePageBFifthPartHeading p {
+        font-size: 1.6rem;
+        margin-left: -20rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .articleARight h3 {
+        display: none;
+    }
+
+    .articleARightAuthor {
+        display: none;
+    }
+
+    .articlePageBFifthPart p:first-child {
+        padding-left: 3rem;
+        padding-top: 2rem;
+    }
+
+    .articlePageBFifthPart p:last-child {
+        padding-left: 3rem;
+        padding-bottom: 6rem;
+    }
+
+    .date .da {
+        display: none;
+    }
+
+    .articlePageBUserComments .date {
+        margin-top: 4.2rem;
+        margin-left: -20rem;
+        margin-bottom: -5rem;
+    }
+
+    .articlePageBUserDescription {
+        margin-left: 1rem;
+        width: 71%;
+    }
+
+    .articlePageBMessageSection h4 {
+        padding-right: 8rem;
+    }
+
+    .articlePageBMessageSection #text {
+        width: 37rem;
+    }
+
+    .articlePageBButton {
+        margin-left: 69%;
+    }
+
+    .articlePageBRecommended {
+        padding-top: 10rem;
+    }
+
+    footer .container {
+        -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: -webkit-min-content;
+        grid-template-columns: min-content;
+        -ms-flex-align: center;
+        justify-items: baseline;
+        padding: 11rem;
+    }
+
+    .footer-logo h1 {
+        margin-top: -11rem;
+    }
+
+    .social-link {
+        display: -ms-flexbox;
+        -ms-flex-pack: end;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .footer-info {
+        display: -ms-grid;
+        display: grid;
+    }
+
+    .flexContainerHomepage{
+        display: block;
+    }
+
+    .homePageFirstLeftPart {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        font-size: 0rem;
+    }
+
+    .homePageFirstLeftImageBody h2 {
+        font-size: 2.5rem;
+    }
+
+    .homePageSecondPart {
+        display: block;
+    }
+
+    .homePageSecondLeftPart {
+        width: 100%;
+    }
+    .counting {
+        font-size: 3rem;
+    }
+
+    .weeklyStories p {
+        font-size: 2.9rem;
+    }
+
+    .homePageSecondLeftPart h5 {
+        font-size: 2.5rem;
+    }
+
+    .homePageThirdPart {
+        display: block;
+    }
+
+    .homePageThirdLeftPart {
+        width: 100%;
+    }
+
+    .homePageThirdRightPart {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .homePageSecondRightPart {
+        width: 100%;
+        margin: 0;
+    }
+
+    .homePageFirstRightPart {
+        width: 100%;
+    }
+
+    .firstRowSecondImageFooter {
+        margin-left: 0;
+    }
+
+    .homePageFirstLeftImage.firstRowSecondImage{
+        display: none;
+    }
+
+    .homePageSecondRightMost h2 {
+        font-size: 3.7rem;
+        margin-bottom: 8.5rem;
+    }
+
+    .homePageSecondRightMost p {
+        font-size: 3rem;
+        margin-bottom: 10rem;
+        padding-left: 3rem;
+    }
+}
